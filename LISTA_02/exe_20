@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int senha = 1234, x;
+
+    do {
+        scanf("%d", &x);
+    } while(x != senha);
+
+    printf("Acesso permitido\n");
+    return 0;
+}
